@@ -51,13 +51,8 @@ It's built to support students, developers, and anyone curious about how algorit
 - **React + Vite** — fast, modern development setup  
 - **Tailwind CSS** — responsive, utility-first styling  
 - **Framer Motion** — animation engine for UI/visualizations  
-- **Modular Logic Layer** — clean separation between UI and algorithm logic  
-
----
-
-## 🗂️ Project Structure
-
-
+- **Modular Logic Layer** — clean separation between UI and algorithm logic
+  
 ---
 
 ## ⚡ Getting Started
