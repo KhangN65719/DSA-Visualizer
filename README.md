@@ -67,12 +67,12 @@ It's built to support students, developers, and anyone curious about how algorit
 npm install
 ```
 
-###Run development server:
+Run development server:
 ```bash
 npm run dev
 ```
 
-###Build for production:
+Build for production:
 ```bash
 npm run build
 ```
