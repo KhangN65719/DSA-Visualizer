@@ -1,75 +1,67 @@
-DSA Visualizer
+# ⚙️ DSA Visualizer
 
-An interactive web application for visualizing Data Structures and Algorithms in real time.
-Built with React, Vite, Tailwind CSS, and Framer Motion.
+Welcome to my **Data Structures & Algorithms Visualizer**!  
+This project is an interactive educational tool designed to help users understand how common algorithms work under the hood. With smooth animations, step-by-step controls, and a clean UI, this visualizer brings algorithms to life.
 
-🚀 Features
-📊 Algorithm Visualizations
+---
 
-Bubble Sort, Selection Sort, Merge Sort, Quick Sort
+## 📌 Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Future Improvements](#future-improvements)
 
-Linear Search, Binary Search
+---
 
-BFS, DFS, Dijkstra (if implemented)
+## 🔍 Overview
 
-BST insert / search / delete (optional)
+The DSA Visualizer allows users to explore popular algorithms and data structures through animated, interactive demonstrations.  
+It's built to support students, developers, and anyone curious about how algorithms behave in real time.
 
-📦 Data Structure Visualizations
+---
 
-Arrays
+## 🚀 Features
 
-Linked Lists
+### **Algorithm Visualizations**
+- Bubble Sort, Merge Sort, Quick Sort, Selection Sort  
+- Linear Search, Binary Search  
+- BFS, DFS (if implemented)  
+- BST Insert / Search / Delete (optional)
 
-Stacks & Queues
+### **Data Structure Visualizations**
+- Arrays  
+- Linked Lists  
+- Stacks & Queues  
+- Trees  
+- Graphs  
 
-Trees
+### **Interactive Tools**
+- Adjustable animation speed  
+- Step-by-step execution  
+- Pause / Play / Reset  
+- Random input generation  
+- Smooth transitions powered by Framer Motion  
 
-Graphs
+---
 
-🎛 Interactive Controls
+## 🛠️ Tech Stack
 
-Adjustable animation speed
+- **React + Vite** — fast, modern development setup  
+- **Tailwind CSS** — responsive, utility-first styling  
+- **Framer Motion** — animation engine for UI/visualizations  
+- **Modular Logic Layer** — clean separation between UI and algorithm logic  
 
-Step-by-step mode
+---
 
-Random input generation
+## 🗂️ Project Structure
 
-Pause / Play / Reset
 
-Smooth motion via Framer Motion
+---
 
-🛠 Tech Stack
+## ⚡ Getting Started
 
-React + Vite — fast development environment
-
-Tailwind CSS — utility-first styling
-
-Framer Motion — animations
-
-Custom visualization engine — clean logic layer for algorithms
-
-Project Structure
-src/
-  components/
-  layouts/
-  pages/
-  visualizers/
-    algorithms/
-    dataStructures/
-  logic/
-    algorithms/
-    dataStructures/
-  routes/
-  hooks/
-  App.jsx
-  main.jsx
-
-⚡ Getting Started
-Install dependencies
+### Install dependencies:
+```bash
 npm install
-
-Start development server
-npm run dev
-
-Build for production
-npm run build
