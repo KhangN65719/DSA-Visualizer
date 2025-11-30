@@ -65,3 +65,9 @@ It's built to support students, developers, and anyone curious about how algorit
 ### Install dependencies:
 ```bash
 npm install
+
+###Run development server:
+npm run dev
+
+###Build for production:
+npm run build
