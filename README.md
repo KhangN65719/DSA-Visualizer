@@ -1,20 +1,20 @@
 DSA Visualizer
 
-An interactive web application for visualizing Data Structures and Algorithms in real time. Built with React, Vite, Tailwind CSS, and Framer Motion, this tool helps students and developers better understand how algorithms work step-by-step.
+An interactive web application for visualizing Data Structures and Algorithms in real time.
+Built with React, Vite, Tailwind CSS, and Framer Motion.
 
-Features
+🚀 Features
+📊 Algorithm Visualizations
 
-Algorithm Visualizations
+Bubble Sort, Selection Sort, Merge Sort, Quick Sort
 
-Sorting algorithms: Bubble Sort, Selection Sort, Merge Sort, Quick Sort
+Linear Search, Binary Search
 
-Searching algorithms: Linear Search, Binary Search
+BFS, DFS, Dijkstra (if implemented)
 
-Graph algorithms (if implemented): BFS, DFS, Dijkstra
+BST insert / search / delete (optional)
 
-Tree operations (if included): BST insert/search/delete
-
-Data Structure Visualizations
+📦 Data Structure Visualizations
 
 Arrays
 
@@ -26,56 +26,50 @@ Trees
 
 Graphs
 
-Interactive Controls
+🎛 Interactive Controls
 
-Adjustable speed
+Adjustable animation speed
 
-Step-by-step execution
+Step-by-step mode
 
-Randomized input generation
+Random input generation
 
 Pause / Play / Reset
 
-Smooth transitions via Framer Motion
+Smooth motion via Framer Motion
 
-Tech Stack
+🛠 Tech Stack
 
-React + Vite
+React + Vite — fast development environment
 
-Tailwind CSS
+Tailwind CSS — utility-first styling
 
-Framer Motion
+Framer Motion — animations
 
-Modular visualization logic
+Custom visualization engine — clean logic layer for algorithms
 
-Project structure:
+Project Structure
 src/
-components/
-layouts/
-pages/
-visualizers/
-algorithms/
-dataStructures/
-logic/
-algorithms/
-dataStructures/
-routes/
-hooks/
-App.jsx
-main.jsx
+  components/
+  layouts/
+  pages/
+  visualizers/
+    algorithms/
+    dataStructures/
+  logic/
+    algorithms/
+    dataStructures/
+  routes/
+  hooks/
+  App.jsx
+  main.jsx
 
-Getting Started
-
-Install dependencies:
-
+⚡ Getting Started
+Install dependencies
 npm install
 
-
-Run development server:
-
+Start development server
 npm run dev
 
-
-Build for production:
-
+Build for production
 npm run build
