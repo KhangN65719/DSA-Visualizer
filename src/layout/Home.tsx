@@ -1,10 +1,11 @@
-import Navbar from '../components/Navbar.tsx'
-import './Home.css'
+import Navbar from '../components/Navbar'
 
-function Home() {
-  return (
-    <Navbar />
-  )
+function Home(){
+    return(
+        <>
+            <Navbar />
+        </>
+    )
 }
 
 export default Home

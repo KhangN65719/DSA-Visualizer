@@ -1,16 +1,32 @@
+// import { Link } from 'react-router-dom';
+import hellokitty from '../assets/hello-kitty.svg'
+import dropdown from '../assets/dropdown-arrow.svg'
 import './Navbar.css'
 
-function NavBar() {
-  return(
-    <nav>
-      {/*TODO: Add navigation links */}
-      <ul className='navigation'>
-        <li><a href=''>Home</a></li> 
-        <li><a href=''>Data Structures</a></li>
-        <li><a href=''>Algorithms</a></li>
-      </ul>
-    </nav>
-  )
+function Navbar(){
+   return(
+    <>
+        <header className='header'>
+            <div>
+                <img src={hellokitty} alt="Hello Kitty icon"/>
+                <h1>DS Visualizer</h1>
+            </div>
+            <nav>
+                <ul>
+                    {/* <li><link>Home</link></li>
+                    <li><link>About Me</link></li>
+                    <li><link>Dashboard</link></li> */}
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li className="dropdown">
+                        Dashboard
+                        <img src={dropdown} alt="dropdown arrow"/>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </>
+   )
 }
 
-export default NavBar;
+export default Navbar
