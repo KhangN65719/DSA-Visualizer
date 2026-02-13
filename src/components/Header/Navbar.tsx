@@ -13,6 +13,7 @@ function Navbar(){
             </div>
             <nav>
                 <ul>
+                    {/* TODO: Add Routing to other pages */}
                     {/* <li><link>Home</link></li>
                     <li><link>About Me</link></li>
                     <li><link>Dashboard</link></li> */}
