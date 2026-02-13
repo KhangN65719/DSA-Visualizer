@@ -1,9 +1,9 @@
-import Navbar from '../components/Header/Navbar'
+import Header from '../components/Header/Header'
 
 function Home(){
     return(
         <>
-            <Navbar />
+            <Header />
         </>
     )
 }

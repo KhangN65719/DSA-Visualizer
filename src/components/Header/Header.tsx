@@ -1,9 +1,9 @@
 // import { Link } from 'react-router-dom';
-import hellokitty from '../assets/hello-kitty.svg'
-import dropdown from '../assets/dropdown-arrow.svg'
-import './Navbar.css'
+import hellokitty from '../../assets/hello-kitty.svg';
+import dropdown from '../../assets/dropdown-arrow.svg'
+import './Header.css'
 
-function Navbar(){
+function Header(){
    return(
     <>
         <header className='header'>
@@ -30,4 +30,4 @@ function Navbar(){
    )
 }
 
-export default Navbar
+export default Header
